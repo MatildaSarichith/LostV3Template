@@ -45,9 +45,10 @@ namespace LostAdventure
             // 
             this.option2Label.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.option2Label.ForeColor = System.Drawing.Color.White;
-            this.option2Label.Location = new System.Drawing.Point(89, 443);
+            this.option2Label.Location = new System.Drawing.Point(67, 360);
+            this.option2Label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.option2Label.Name = "option2Label";
-            this.option2Label.Size = new System.Drawing.Size(300, 28);
+            this.option2Label.Size = new System.Drawing.Size(225, 23);
             this.option2Label.TabIndex = 10;
             this.option2Label.Text = "option2Label";
             // 
@@ -55,9 +56,10 @@ namespace LostAdventure
             // 
             this.option1Label.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.option1Label.ForeColor = System.Drawing.Color.White;
-            this.option1Label.Location = new System.Drawing.Point(89, 399);
+            this.option1Label.Location = new System.Drawing.Point(67, 324);
+            this.option1Label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.option1Label.Name = "option1Label";
-            this.option1Label.Size = new System.Drawing.Size(300, 28);
+            this.option1Label.Size = new System.Drawing.Size(225, 23);
             this.option1Label.TabIndex = 9;
             this.option1Label.Text = "option1Label";
             // 
@@ -65,9 +67,10 @@ namespace LostAdventure
             // 
             this.outputLabel.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.outputLabel.ForeColor = System.Drawing.Color.White;
-            this.outputLabel.Location = new System.Drawing.Point(32, 22);
+            this.outputLabel.Location = new System.Drawing.Point(24, 18);
+            this.outputLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.outputLabel.Name = "outputLabel";
-            this.outputLabel.Size = new System.Drawing.Size(357, 101);
+            this.outputLabel.Size = new System.Drawing.Size(268, 82);
             this.outputLabel.TabIndex = 8;
             this.outputLabel.Text = "outputLabel";
             // 
@@ -75,10 +78,10 @@ namespace LostAdventure
             // 
             this.imageBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.imageBox.Image = global::LostAdventure.Properties.Resources.deepBrush;
-            this.imageBox.Location = new System.Drawing.Point(32, 135);
-            this.imageBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.imageBox.Location = new System.Drawing.Point(24, 110);
+            this.imageBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.imageBox.Name = "imageBox";
-            this.imageBox.Size = new System.Drawing.Size(357, 214);
+            this.imageBox.Size = new System.Drawing.Size(268, 174);
             this.imageBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.imageBox.TabIndex = 11;
             this.imageBox.TabStop = false;
@@ -86,10 +89,10 @@ namespace LostAdventure
             // option2Button
             // 
             this.option2Button.Image = global::LostAdventure.Properties.Resources.arrowRight;
-            this.option2Button.Location = new System.Drawing.Point(32, 431);
-            this.option2Button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.option2Button.Location = new System.Drawing.Point(24, 350);
+            this.option2Button.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.option2Button.Name = "option2Button";
-            this.option2Button.Size = new System.Drawing.Size(52, 39);
+            this.option2Button.Size = new System.Drawing.Size(39, 32);
             this.option2Button.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.option2Button.TabIndex = 7;
             this.option2Button.TabStop = false;
@@ -98,10 +101,10 @@ namespace LostAdventure
             // option1Button
             // 
             this.option1Button.Image = global::LostAdventure.Properties.Resources.arrowRight;
-            this.option1Button.Location = new System.Drawing.Point(32, 386);
-            this.option1Button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.option1Button.Location = new System.Drawing.Point(24, 314);
+            this.option1Button.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.option1Button.Name = "option1Button";
-            this.option1Button.Size = new System.Drawing.Size(52, 39);
+            this.option1Button.Size = new System.Drawing.Size(39, 32);
             this.option1Button.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.option1Button.TabIndex = 6;
             this.option1Button.TabStop = false;
@@ -109,10 +112,10 @@ namespace LostAdventure
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(418, 519);
+            this.ClientSize = new System.Drawing.Size(358, 422);
             this.Controls.Add(this.imageBox);
             this.Controls.Add(this.option2Label);
             this.Controls.Add(this.option1Label);
@@ -120,7 +123,6 @@ namespace LostAdventure
             this.Controls.Add(this.option2Button);
             this.Controls.Add(this.option1Button);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lost in a Forest";
